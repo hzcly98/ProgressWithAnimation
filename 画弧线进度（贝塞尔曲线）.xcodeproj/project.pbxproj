@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FDDD7131CF2A41A00D1F4ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7121CF2A41A00D1F4ED /* main.m */; };
+		4FDDD7161CF2A41A00D1F4ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7151CF2A41A00D1F4ED /* AppDelegate.m */; };
+		4FDDD7191CF2A41A00D1F4ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7181CF2A41A00D1F4ED /* ViewController.m */; };
+		4FDDD71C1CF2A41A00D1F4ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDDD71A1CF2A41A00D1F4ED /* Main.storyboard */; };
+		4FDDD71E1CF2A41A00D1F4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDDD71D1CF2A41A00D1F4ED /* Assets.xcassets */; };
+		4FDDD7211CF2A41A00D1F4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDDD71F1CF2A41A00D1F4ED /* LaunchScreen.storyboard */; };
+		4FDDD72C1CF2A41A00D1F4ED /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD72B1CF2A41A00D1F4ED /* ____________Tests.m */; };
+		4FDDD7371CF2A41A00D1F4ED /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7361CF2A41A00D1F4ED /* ____________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FDDD7281CF2A41A00D1F4ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FDDD7061CF2A41A00D1F4ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDDD70D1CF2A41A00D1F4ED;
+			remoteInfo = "画弧线进度（贝塞尔曲线）";
+		};
+		4FDDD7331CF2A41A00D1F4ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FDDD7061CF2A41A00D1F4ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDDD70D1CF2A41A00D1F4ED;
+			remoteInfo = "画弧线进度（贝塞尔曲线）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FDDD70E1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画弧线进度（贝塞尔曲线）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDDD7121CF2A41A00D1F4ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FDDD7141CF2A41A00D1F4ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FDDD7151CF2A41A00D1F4ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FDDD7171CF2A41A00D1F4ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FDDD7181CF2A41A00D1F4ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FDDD71B1CF2A41A00D1F4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FDDD71D1CF2A41A00D1F4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FDDD7201CF2A41A00D1F4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FDDD7221CF2A41A00D1F4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDDD7271CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画弧线进度（贝塞尔曲线）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDDD72B1CF2A41A00D1F4ED /* ____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________Tests.m"; sourceTree = "<group>"; };
+		4FDDD72D1CF2A41A00D1F4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDDD7321CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画弧线进度（贝塞尔曲线）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDDD7361CF2A41A00D1F4ED /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
+		4FDDD7381CF2A41A00D1F4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FDDD70B1CF2A41A00D1F4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDDD7241CF2A41A00D1F4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDDD72F1CF2A41A00D1F4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FDDD7051CF2A41A00D1F4ED = {
+			isa = PBXGroup;
+			children = (
+				4FDDD7101CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线） */,
+				4FDDD72A1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）Tests */,
+				4FDDD7351CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests */,
+				4FDDD70F1CF2A41A00D1F4ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FDDD70F1CF2A41A00D1F4ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FDDD70E1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）.app */,
+				4FDDD7271CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）Tests.xctest */,
+				4FDDD7321CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FDDD7101CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线） */ = {
+			isa = PBXGroup;
+			children = (
+				4FDDD7141CF2A41A00D1F4ED /* AppDelegate.h */,
+				4FDDD7151CF2A41A00D1F4ED /* AppDelegate.m */,
+				4FDDD7171CF2A41A00D1F4ED /* ViewController.h */,
+				4FDDD7181CF2A41A00D1F4ED /* ViewController.m */,
+				4FDDD71A1CF2A41A00D1F4ED /* Main.storyboard */,
+				4FDDD71D1CF2A41A00D1F4ED /* Assets.xcassets */,
+				4FDDD71F1CF2A41A00D1F4ED /* LaunchScreen.storyboard */,
+				4FDDD7221CF2A41A00D1F4ED /* Info.plist */,
+				4FDDD7111CF2A41A00D1F4ED /* Supporting Files */,
+			);
+			path = "画弧线进度（贝塞尔曲线）";
+			sourceTree = "<group>";
+		};
+		4FDDD7111CF2A41A00D1F4ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FDDD7121CF2A41A00D1F4ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FDDD72A1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FDDD72B1CF2A41A00D1F4ED /* ____________Tests.m */,
+				4FDDD72D1CF2A41A00D1F4ED /* Info.plist */,
+			);
+			path = "画弧线进度（贝塞尔曲线）Tests";
+			sourceTree = "<group>";
+		};
+		4FDDD7351CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FDDD7361CF2A41A00D1F4ED /* ____________UITests.m */,
+				4FDDD7381CF2A41A00D1F4ED /* Info.plist */,
+			);
+			path = "画弧线进度（贝塞尔曲线）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FDDD70D1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDDD73B1CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）" */;
+			buildPhases = (
+				4FDDD70A1CF2A41A00D1F4ED /* Sources */,
+				4FDDD70B1CF2A41A00D1F4ED /* Frameworks */,
+				4FDDD70C1CF2A41A00D1F4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "画弧线进度（贝塞尔曲线）";
+			productName = "画弧线进度（贝塞尔曲线）";
+			productReference = 4FDDD70E1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FDDD7261CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDDD73E1CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）Tests" */;
+			buildPhases = (
+				4FDDD7231CF2A41A00D1F4ED /* Sources */,
+				4FDDD7241CF2A41A00D1F4ED /* Frameworks */,
+				4FDDD7251CF2A41A00D1F4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FDDD7291CF2A41A00D1F4ED /* PBXTargetDependency */,
+			);
+			name = "画弧线进度（贝塞尔曲线）Tests";
+			productName = "画弧线进度（贝塞尔曲线）Tests";
+			productReference = 4FDDD7271CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FDDD7311CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDDD7411CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）UITests" */;
+			buildPhases = (
+				4FDDD72E1CF2A41A00D1F4ED /* Sources */,
+				4FDDD72F1CF2A41A00D1F4ED /* Frameworks */,
+				4FDDD7301CF2A41A00D1F4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FDDD7341CF2A41A00D1F4ED /* PBXTargetDependency */,
+			);
+			name = "画弧线进度（贝塞尔曲线）UITests";
+			productName = "画弧线进度（贝塞尔曲线）UITests";
+			productReference = 4FDDD7321CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FDDD7061CF2A41A00D1F4ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huangzhangcheng;
+				TargetAttributes = {
+					4FDDD70D1CF2A41A00D1F4ED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4FDDD7261CF2A41A00D1F4ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4FDDD70D1CF2A41A00D1F4ED;
+					};
+					4FDDD7311CF2A41A00D1F4ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4FDDD70D1CF2A41A00D1F4ED;
+					};
+				};
+			};
+			buildConfigurationList = 4FDDD7091CF2A41A00D1F4ED /* Build configuration list for PBXProject "画弧线进度（贝塞尔曲线）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FDDD7051CF2A41A00D1F4ED;
+			productRefGroup = 4FDDD70F1CF2A41A00D1F4ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FDDD70D1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线） */,
+				4FDDD7261CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）Tests */,
+				4FDDD7311CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FDDD70C1CF2A41A00D1F4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDDD7211CF2A41A00D1F4ED /* LaunchScreen.storyboard in Resources */,
+				4FDDD71E1CF2A41A00D1F4ED /* Assets.xcassets in Resources */,
+				4FDDD71C1CF2A41A00D1F4ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDDD7251CF2A41A00D1F4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDDD7301CF2A41A00D1F4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FDDD70A1CF2A41A00D1F4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDDD7191CF2A41A00D1F4ED /* ViewController.m in Sources */,
+				4FDDD7161CF2A41A00D1F4ED /* AppDelegate.m in Sources */,
+				4FDDD7131CF2A41A00D1F4ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDDD7231CF2A41A00D1F4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDDD72C1CF2A41A00D1F4ED /* ____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDDD72E1CF2A41A00D1F4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDDD7371CF2A41A00D1F4ED /* ____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FDDD7291CF2A41A00D1F4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FDDD70D1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线） */;
+			targetProxy = 4FDDD7281CF2A41A00D1F4ED /* PBXContainerItemProxy */;
+		};
+		4FDDD7341CF2A41A00D1F4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FDDD70D1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线） */;
+			targetProxy = 4FDDD7331CF2A41A00D1F4ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FDDD71A1CF2A41A00D1F4ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FDDD71B1CF2A41A00D1F4ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FDDD71F1CF2A41A00D1F4ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FDDD7201CF2A41A00D1F4ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FDDD7391CF2A41A00D1F4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FDDD73A1CF2A41A00D1F4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FDDD73C1CF2A41A00D1F4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "画弧线进度（贝塞尔曲线）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QC.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FDDD73D1CF2A41A00D1F4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "画弧线进度（贝塞尔曲线）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QC.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FDDD73F1CF2A41A00D1F4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "画弧线进度（贝塞尔曲线）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QC.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/画弧线进度（贝塞尔曲线）.app/画弧线进度（贝塞尔曲线）";
+			};
+			name = Debug;
+		};
+		4FDDD7401CF2A41A00D1F4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "画弧线进度（贝塞尔曲线）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QC.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/画弧线进度（贝塞尔曲线）.app/画弧线进度（贝塞尔曲线）";
+			};
+			name = Release;
+		};
+		4FDDD7421CF2A41A00D1F4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "画弧线进度（贝塞尔曲线）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QC.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "画弧线进度（贝塞尔曲线）";
+			};
+			name = Debug;
+		};
+		4FDDD7431CF2A41A00D1F4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "画弧线进度（贝塞尔曲线）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QC.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "画弧线进度（贝塞尔曲线）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FDDD7091CF2A41A00D1F4ED /* Build configuration list for PBXProject "画弧线进度（贝塞尔曲线）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDDD7391CF2A41A00D1F4ED /* Debug */,
+				4FDDD73A1CF2A41A00D1F4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDDD73B1CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDDD73C1CF2A41A00D1F4ED /* Debug */,
+				4FDDD73D1CF2A41A00D1F4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FDDD73E1CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDDD73F1CF2A41A00D1F4ED /* Debug */,
+				4FDDD7401CF2A41A00D1F4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FDDD7411CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDDD7421CF2A41A00D1F4ED /* Debug */,
+				4FDDD7431CF2A41A00D1F4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FDDD7061CF2A41A00D1F4ED /* Project object */;
+}
