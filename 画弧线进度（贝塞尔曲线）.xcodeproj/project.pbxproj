@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F53E2CB1CF5707100C003B5 /* CoreAnimationEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F53E2CA1CF5707100C003B5 /* CoreAnimationEffect.m */; };
+		4F8966761CF70DD2006F3C54 /* QCLineProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8966751CF70DD2006F3C54 /* QCLineProgressView.m */; };
 		4FDDD7131CF2A41A00D1F4ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7121CF2A41A00D1F4ED /* main.m */; };
 		4FDDD7161CF2A41A00D1F4ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7151CF2A41A00D1F4ED /* AppDelegate.m */; };
 		4FDDD7191CF2A41A00D1F4ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7181CF2A41A00D1F4ED /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		4FDDD7211CF2A41A00D1F4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDDD71F1CF2A41A00D1F4ED /* LaunchScreen.storyboard */; };
 		4FDDD72C1CF2A41A00D1F4ED /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD72B1CF2A41A00D1F4ED /* ____________Tests.m */; };
 		4FDDD7371CF2A41A00D1F4ED /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7361CF2A41A00D1F4ED /* ____________UITests.m */; };
+		4FDDD7461CF2A45D00D1F4ED /* QCProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDD7451CF2A45D00D1F4ED /* QCProgressView.m */; };
+		DE138D567BEB67F7F240375C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5FDD39C99CB27EF7EFD839 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E284CEF9F8B5B2D13359C42 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4F53E2C91CF5707100C003B5 /* CoreAnimationEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationEffect.h; sourceTree = "<group>"; };
+		4F53E2CA1CF5707100C003B5 /* CoreAnimationEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationEffect.m; sourceTree = "<group>"; };
+		4F8966741CF70DD2006F3C54 /* QCLineProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLineProgressView.h; sourceTree = "<group>"; };
+		4F8966751CF70DD2006F3C54 /* QCLineProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLineProgressView.m; sourceTree = "<group>"; };
 		4FDDD70E1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画弧线进度（贝塞尔曲线）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDDD7121CF2A41A00D1F4ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FDDD7141CF2A41A00D1F4ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,10 @@
 		4FDDD7321CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画弧线进度（贝塞尔曲线）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDDD7361CF2A41A00D1F4ED /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
 		4FDDD7381CF2A41A00D1F4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDDD7441CF2A45D00D1F4ED /* QCProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCProgressView.h; sourceTree = "<group>"; };
+		4FDDD7451CF2A45D00D1F4ED /* QCProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCProgressView.m; sourceTree = "<group>"; };
+		613CFA1325DA5A4F618DD7CA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AB5FDD39C99CB27EF7EFD839 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE138D567BEB67F7F240375C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				4FDDD72A1CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）Tests */,
 				4FDDD7351CF2A41A00D1F4ED /* 画弧线进度（贝塞尔曲线）UITests */,
 				4FDDD70F1CF2A41A00D1F4ED /* Products */,
+				75A98C2DBCE18B4F0C7A9005 /* Pods */,
+				FA839042A53D8BD862653165 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +121,12 @@
 				4FDDD7151CF2A41A00D1F4ED /* AppDelegate.m */,
 				4FDDD7171CF2A41A00D1F4ED /* ViewController.h */,
 				4FDDD7181CF2A41A00D1F4ED /* ViewController.m */,
+				4FDDD7441CF2A45D00D1F4ED /* QCProgressView.h */,
+				4FDDD7451CF2A45D00D1F4ED /* QCProgressView.m */,
+				4F8966741CF70DD2006F3C54 /* QCLineProgressView.h */,
+				4F8966751CF70DD2006F3C54 /* QCLineProgressView.m */,
+				4F53E2C91CF5707100C003B5 /* CoreAnimationEffect.h */,
+				4F53E2CA1CF5707100C003B5 /* CoreAnimationEffect.m */,
 				4FDDD71A1CF2A41A00D1F4ED /* Main.storyboard */,
 				4FDDD71D1CF2A41A00D1F4ED /* Assets.xcassets */,
 				4FDDD71F1CF2A41A00D1F4ED /* LaunchScreen.storyboard */,
@@ -140,6 +162,23 @@
 			path = "画弧线进度（贝塞尔曲线）UITests";
 			sourceTree = "<group>";
 		};
+		75A98C2DBCE18B4F0C7A9005 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E284CEF9F8B5B2D13359C42 /* Pods.debug.xcconfig */,
+				613CFA1325DA5A4F618DD7CA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA839042A53D8BD862653165 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5FDD39C99CB27EF7EFD839 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FDDD73B1CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）" */;
 			buildPhases = (
+				A0537D934C5097E5FE4100FE /* Check Pods Manifest.lock */,
 				4FDDD70A1CF2A41A00D1F4ED /* Sources */,
 				4FDDD70B1CF2A41A00D1F4ED /* Frameworks */,
 				4FDDD70C1CF2A41A00D1F4ED /* Resources */,
+				69047C461B83E6572E994523 /* Embed Pods Frameworks */,
+				EF41A0C4EB8BDEF2C9C35A73 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +249,7 @@
 				TargetAttributes = {
 					4FDDD70D1CF2A41A00D1F4ED = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5K252B72FU;
 					};
 					4FDDD7261CF2A41A00D1F4ED = {
 						CreatedOnToolsVersion = 7.3;
@@ -265,14 +308,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69047C461B83E6572E994523 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0537D934C5097E5FE4100FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF41A0C4EB8BDEF2C9C35A73 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FDDD70A1CF2A41A00D1F4ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4FDDD7191CF2A41A00D1F4ED /* ViewController.m in Sources */,
+				4F8966761CF70DD2006F3C54 /* QCLineProgressView.m in Sources */,
 				4FDDD7161CF2A41A00D1F4ED /* AppDelegate.m in Sources */,
 				4FDDD7131CF2A41A00D1F4ED /* main.m in Sources */,
+				4F53E2CB1CF5707100C003B5 /* CoreAnimationEffect.m in Sources */,
+				4FDDD7461CF2A45D00D1F4ED /* QCProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,23 +505,33 @@
 		};
 		4FDDD73C1CF2A41A00D1F4ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E284CEF9F8B5B2D13359C42 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "画弧线进度（贝塞尔曲线）/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "QC.------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		4FDDD73D1CF2A41A00D1F4ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613CFA1325DA5A4F618DD7CA /* Pods.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "画弧线进度（贝塞尔曲线）/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "QC.------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -496,6 +600,7 @@
 				4FDDD73D1CF2A41A00D1F4ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FDDD73E1CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +609,7 @@
 				4FDDD7401CF2A41A00D1F4ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FDDD7411CF2A41A00D1F4ED /* Build configuration list for PBXNativeTarget "画弧线进度（贝塞尔曲线）UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +618,7 @@
 				4FDDD7431CF2A41A00D1F4ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
